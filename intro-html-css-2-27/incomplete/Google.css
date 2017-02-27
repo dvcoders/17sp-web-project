@@ -1,0 +1,24 @@
+body{
+  margin: 0 auto;
+}
+
+.search_area{
+  margin: 100px auto;
+}
+
+/* we need a rule here to center the logo and change its size */
+
+
+#search_bar{
+  display:block;
+  margin: 0 auto;
+
+/* add more here to make search bar look pretty */
+}
+
+.btn_group{
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* we need a rule here to make buttons look cleaner */

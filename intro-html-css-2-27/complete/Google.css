@@ -1,0 +1,41 @@
+body{
+  margin: 0 auto;
+}
+
+.search_area{
+  margin: 100px auto;
+}
+
+#logo{
+  display: block;
+  margin: 0 auto;
+
+  height:92px;
+}
+
+#search_bar{
+  display:block;
+  margin: 0 auto;
+
+  background: #fff;
+  color: #222;
+  
+  border: 1px solid #d9d9d9;
+  font-size: 25px;
+
+  width: 561px;
+  height:36px;
+}
+
+.btn_group{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.btn{
+  height:36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+}s
