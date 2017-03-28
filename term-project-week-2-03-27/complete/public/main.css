@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: 2rem;
+}
+
+.navbar .navbar-logo {
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-right: 1.5rem;
+  border-radius: 25%;
+}
+
+.navbar .project-name {
+  font-size: 4rem;
+}
+
+#yak-input-box {
+  resize: none;
+  margin: 0;
+  height: 13rem;
+  font: inherit;
+}
+
+.yakker-message-info {
+  margin-bottom: 1.5rem;
+  text-align: right;
+}
+
+#yakker-message-count {
+  line-height: 1;
+  text-align: right;
+}
+
+#yakker-list-container {
+  list-style-type: none;
+}
+
+#yakker-list-container li {
+  background-color: #EEEEEE;
+  padding: 1rem;
+}
+
+#yakker-submit:disabled {
+  cursor: default;
+  opacity: 0.25;
+}
+
+#yakker-list-container .yak-message {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+#yakker-list-container time {
+  display: block;
+  text-align: right;
+  color: #AAAAAA;
+  line-height: 1;
+}
