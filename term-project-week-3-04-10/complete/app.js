@@ -1,14 +1,15 @@
 var express = require('express');
 var app = express();
+var path = require('path');
 var bodyParser = require('body-parser');
 var logger = require('morgan');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {
-  res.sendFile('/public/index.html');
+  res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 app.post('/yak', function(req, res) {
@@ -16,7 +17,7 @@ app.post('/yak', function(req, res) {
   var time = req.body.time;
   console.log("Time:", time);
   console.log("Message:", message);
-  throw new Error('Haha');
+  // throw new Error('Haha');
 });
 
 app.use(function(req, res) {

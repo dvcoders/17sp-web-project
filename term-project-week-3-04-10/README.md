@@ -15,6 +15,11 @@ Create app.js
 2. `npm install express --save`<br/>
 Make app.js serve index.html webpage (listen on port 3000)
 
+3. `npm install nodemon --save`<br/>
+Make server restart automatically when detecting changes
+
+4. Add start script to package.json
+
 3. `npm install body-parser --save`<br/>
 Make server print out message and time everytime user presses button<br/>
 Code for client-side AJAX call:
