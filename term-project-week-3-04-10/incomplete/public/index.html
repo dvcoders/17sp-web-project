@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yakker</title>
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="container">
+      <img src="http://lorempixel.com/29/29/abstract" alt="Logo" class="navbar-logo"><span class="project-name">Yak</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="columns eight offset-by-two">
+        <textarea id="yakker-input" class="u-full-width" placeholder="What do you want to share?"></textarea>
+      </div>
+    </div>
+    <div class="row yakker-message-info">
+      <div class="columns eight offset-by-two">
+        <span id="yak-message-count">140</span>
+        <button id="yakker-submit" class="button-primary" disabled>Yak!</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns eight offset-by-two">
+        <ul id="yakker-list-container"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
