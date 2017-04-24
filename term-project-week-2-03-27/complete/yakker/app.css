@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #D1D1D1;
+  margin-bottom: 2rem;
+}
+
+.navbar .navbar-logo {
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-right: 1.5rem;
+  border-radius: 25%;
+}
+
+.navbar .project-name {
+  font-size: 4rem;
+}
+
+#yak-input-box {
+  resize: none;
+  margin: 0;
+  height: 13rem;
+  font: inherit;
+}
